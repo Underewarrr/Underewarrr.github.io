@@ -843,10 +843,12 @@ main {
 
 .skill .title-wrapper {
   display: flex;
-  align-items: center;
+  flex-direction: column; /* Set the flex direction to column */
+  align-items: flex-start; /* Align items to the start of the column */
   gap: 5px;
   margin-bottom: 8px;
 }
+
 
 .skill .title-wrapper data {
   color: var(--light-gray);
